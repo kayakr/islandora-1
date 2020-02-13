@@ -3,6 +3,8 @@
 [![Contribution Guidelines][2]](./CONTRIBUTING.md)
 [![LICENSE][3]](./LICENSE)
 
+## DO NOT USE THIS FORK.  USE THE 8.x-1.x BRANCH OF https://github.com/islandora/islandora INSTEAD.
+
 ## Introduction
 
 Islandora is a module that turns a Drupal 8 site into a control panel for your digital repository.  Through a user
