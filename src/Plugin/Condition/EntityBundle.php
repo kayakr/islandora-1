@@ -6,11 +6,13 @@ use Drupal\Core\Condition\ConditionPluginBase;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
- * Provides a 'Entity Bundle' condition.
+ * Provides an 'Entity Bundle' condition.
+ *
+ * Namespaced to avoid conflict with ctools entity_bundle plugin.
  *
  * @Condition(
- *   id = "entity_bundle",
- *   label = @Translation("Entity Bundle"),
+ *   id = "islandora_entity_bundle",
+ *   label = @Translation("Islandora Entity Bundle"),
  *   context = {
  *     "node" = @ContextDefinition("entity:node", required = FALSE, label = @Translation("Node")),
  *     "media" = @ContextDefinition("entity:media", required = FALSE, label = @Translation("Media")),
@@ -18,7 +20,7 @@ use Drupal\Core\Form\FormStateInterface;
  *   }
  * )
  */
-class EntityBundle extends ConditionPluginBase {
+class IslandoraEntityBundle extends ConditionPluginBase {
 
   /**
    * {@inheritdoc}
